@@ -1,0 +1,120 @@
+@import "../others/variables.scss";
+
+body{
+  background-color: black;
+}
+
+.container-human-1{
+  background-image: url(../../imgs/humanFlight/01.jpg);
+
+  .humanTitle{
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .largeTitle{
+    font-size: 120px;
+    font-weight: 550;
+    line-height: 144px;
+  }
+
+  .description{
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 15px;
+  }
+
+  .arrowDown{
+    margin-top: 5px;
+    width:150px;
+    margin-top: 15px;
+  }
+}
+
+.container-human-1-1{
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .textEarth{
+    width: 800px;
+    font-size: 20px;
+    line-height: 30px;
+    a{
+      color: $copy-color;
+      text-decoration: none;
+  
+      &:hover{
+        color: $link-hover;
+      }
+    }
+  }
+  
+}
+
+.astroTitle{
+  display: block;
+.topTitle{
+  font-size: 16px;
+  line-height: 24px;
+}
+.mainTitle{
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+}
+.astroDesc{
+  font-size: 16px;
+  font-weight: 300;
+}
+}
+
+.container-human-2{
+  background-image: url(../../imgs/humanFlight/02.jpg);
+  .astroTitle{
+    margin-left: 55%;
+    padding-top: 12%;
+}
+}
+.container-human-3{
+  background-image: url(../../imgs/humanFlight/03.jpg);
+  .astroTitle{
+    margin-left: 5%;
+    padding-top: 15%;
+  }
+}
+.container-human-4{
+  background-image: url(../../imgs/humanFlight/04.jpg);
+  .astroTitle{
+    margin-left: 53%;
+    padding-top: 15%;
+  }
+}
+.container-human-5{
+  background-image: url(../../imgs/humanFlight/05.jpg);
+  .astroTitle{
+    margin-left: 5%;
+    padding-top: 15%;
+  }
+}
+.container-human-6{
+  height: 85vh;
+  display: grid;
+  align-items: center;
+  a{
+    color: $copy-color;
+    text-decoration: none;
+
+    &:hover{
+      color: $link-hover;
+    }
+  }
+}
+
+// media query
+
+// @media(max-width:)

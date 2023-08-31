@@ -1,0 +1,140 @@
+//variables
+@import "../others/variables.scss";
+
+body{
+  background-color: black;
+}
+
+.container-falcon-1{
+  background-image: url(../../imgs/falcon9/01.jpg);
+  .largeTitle{
+    font-size: 90px;
+    font-family: 'Rubik';
+    font-weight: 514;
+    margin-top: 190px;
+  }
+}
+
+.container-falcon-1-1{
+  height: 230px;
+  margin-top: 60px;
+  .numberTitles{
+    .h1{
+      font-size: 90px;
+    }
+  }
+}
+
+.container-falcon-2{
+  background-image: url(../../imgs/falcon9/02.jpg);
+  display: grid;
+  align-items: center;
+  justify-content: left;
+  .textImage1{
+    display: flex;
+    font-size: 22px;
+    width: 650px;
+    line-height: 50px;
+  }
+}
+
+#carousel1{
+  .carousel01{
+    background-image: url(../../imgs/falcon9/03.jpg);
+  }
+  .carousel02{
+    background-image: url(../../imgs/falcon9/04.jpg);
+  }
+  .carousel03{
+    background-image: url(../../imgs/falcon9/05.jpg);
+  }
+  .carousel04{
+    background-image: url(../../imgs/falcon9/06.jpg);
+  }
+  .carousel05{
+    background-image: url(../../imgs/falcon9/07.jpg);
+  }
+}
+
+#overViewPosition{
+  width: 500px;
+  margin-left: 13%;
+  margin-top: 15%;
+}
+
+.container-falcon-3{
+  background-image: url(../../imgs/falcon9/08.jpg);
+
+  .text-imgMerlin{
+    width:600px;
+    padding-top: 190px;
+    margin-left: 90px;
+  }
+  .merlin-description{
+    border-bottom: 2px solid white;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+#carousel2{
+  .text-carousel2{
+    background-color: black;
+  }
+}
+
+.container-falcon-4{
+  height: 85vh;
+  display: grid;
+  align-items: center;
+  a{
+    color: $copy-color;
+    text-decoration: none;
+
+    &:hover{
+      color: $link-hover;
+    }
+  }
+}
+
+//media Querys
+
+@media(max-width:650px){
+  .container-falcon-1-1{
+    height: 100vh;
+    .numberTitles{
+      flex-wrap: wrap;
+    }
+  }
+  .container-falcon-2{
+    .textImage1{
+      width: auto;
+      font-size: 16px;
+      line-height: 30px;
+    }
+  }
+  .container-falcon-3{
+    .text-imgMerlin{
+      width: auto;
+      text-align: center;
+    }
+  }
+  #overViewPosition{
+    width: auto;
+  }
+  .container-falcon-4{
+    display: flex;
+    flex-wrap: wrap;
+    .learnMore{
+      padding-top: 80px;
+    }
+  }
+}
+
+@media(max-width: 370px){
+  .container-falcon-1{
+    .largeTitle{
+      font-size: 50px;
+    }
+  }
+}

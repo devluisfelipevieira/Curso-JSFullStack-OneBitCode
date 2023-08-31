@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eventos HTML</title>
+  </head>
+  <body>
+    <head>
+      <h1>Eventos no HTML</h1>
+      <div>
+        <label for="onMouseEnter">Entrada de valor:</label>
+        <input
+          type="text"
+          id="onMouseEnter"
+          onmouseenter="console.log('Entrada do mouse')"
+        />
+        <!-- aciona quando o mouse passa por cima -->
+      </div>
+      <br />
+      <div>
+        <label for="onChange">Mudança de valor:</label>
+        <input
+          type="text"
+          id="onChange"
+          onchange="console.log('Mudança no valor')"
+        />
+        <!-- aciona quando o valor muda -->
+      </div>
+      <br />
+      <div>
+        <label for="onFocus">Entrada de foco:</label>
+        <input
+          type="text"
+          id="onFocus"
+          onfocus="console.log('Foco no elemento')"
+        />
+        <!-- aciona quando o campo é selecionado -->
+      </div>
+      <br />
+      <div>
+        <label for="onBlur">Saída de foco:</label>
+        <input
+          type="text"
+          id="onChange"
+          onchange="console.log('Desfocado o elemento')"
+        />
+        <!-- aciona quando o campo é selecionado e deixa de ser -->
+      </div>
+      <br />
+    </head>
+  </body>
+</html>

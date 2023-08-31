@@ -1,0 +1,84 @@
+// variables
+@import "variables.scss";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.header{
+  font-size: 12px;
+  font-weight: bold;
+
+  #navItem{
+    margin-left: 10px;
+    &:hover{
+      color: $link-hover;
+    }
+  }
+}
+
+.logo-header{
+  padding-right: 40px;
+}
+
+.container00{
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn{
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  padding: $padding-buttom;
+
+  &:hover{
+    background-color: white;
+    color: black;
+  }
+}
+
+.footer{
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  a {
+    text-decoration: none;
+    color: white;
+    &:hover{
+      color: $link-hover;
+    }
+  }
+}
+
+.copyLFV{
+  color: $copy-color;
+}
+
+// Media query
+
+@media (max-width: 425px){
+  .logo-header{
+    width: 200px;
+    margin-top: 15px;
+  }
+
+  .footer{
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 350px){
+  .logo-header{
+    width: 150px;
+  }
+}

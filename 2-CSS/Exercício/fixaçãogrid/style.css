@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background-color: darkgrey;
+  min-height: 100vh;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 2fr 1fr 1fr;
+  grid-auto-rows: minmax(320px,auto);
+}
+
+.item{
+  background-color: white;
+  border: 2px solid;
+  font-size: 20px;
+  padding: 10px;
+}

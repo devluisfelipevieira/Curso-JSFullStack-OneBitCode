@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+h1{
+  border: solid rgba(0, 0, 0, 0.13);
+}
+
+body{
+  background-image: url(https://s2.glbimg.com/o3IEB8vbwV1MIsws4k4t3I2Ny-s=/e.glbimg.com/og/ed/f/original/2020/05/26/falcon_heavy_demo_mission_40126461851.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

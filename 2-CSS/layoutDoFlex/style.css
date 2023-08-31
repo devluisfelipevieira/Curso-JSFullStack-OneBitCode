@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container{
+  background-color: darkgray;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column; /*column ou row*/
+  gap: 0px 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; /*quebra o item (reverse faz quebrar ao contrario) */
+}
+
+.item{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  border: 2px solid;
+  background-color:white;
+  font-size: 20px;
+  /* flex-basis: 200px; tamanho inicial do item*/
+  /* flex-grow: 0; 1 ativado(item cresce) 0 desativado */
+}
+
+/* #column-2{
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+} */
+
+.item1{
+  /* flex-shrink: 0; 2 o item começa a diminuir primeiro e 0 o item nunca diminui */
+  order: 2; /*manipula a ordem dos itens*/
+  /* align-self: flex-start; coloca o item no começo ou no final(flex-end) da tela ou centro(center) */
+}
+
+.item2{
+  /* flex: 1 0 400px; flex-grow flex-shrink flex-basis */ 
+  order: 3;
+}
+
+.item3{
+  order: 1;
+
+}
+
+@media (max-width: 390px){
+  .item2{
+    flex: 1 0 620px;
+  }
+}

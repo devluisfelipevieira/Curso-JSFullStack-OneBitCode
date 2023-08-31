@@ -1,0 +1,351 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+.header {
+  font-size: 12px;
+  font-weight: bold;
+}
+.header #navItem {
+  margin-left: 10px;
+}
+.header #navItem:hover {
+  color: #b9b9b9;
+}
+
+.logo-header {
+  padding-right: 40px;
+}
+
+.container00 {
+  min-height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.btn {
+  color: white;
+  border: 2px solid white;
+  border-radius: 0.25rem;
+  font-size: 16px;
+  padding: 15px 35px;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+
+.footer {
+  height: 15vh;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer a {
+  text-decoration: none;
+  color: white;
+}
+.footer a:hover {
+  color: #b9b9b9;
+}
+
+.copyLFV {
+  color: #555252;
+}
+
+@media (max-width: 425px) {
+  .logo-header {
+    width: 200px;
+    margin-top: 15px;
+  }
+  .footer {
+    font-size: 10px;
+  }
+}
+@media (max-width: 350px) {
+  .logo-header {
+    width: 150px;
+  }
+}
+.container-home1 {
+  background-image: url(../../imgs/home/01.jpg);
+}
+.container-home1 .arrowDown {
+  display: inline-block;
+  margin-top: 5px;
+  width: 90px;
+  height: auto;
+}
+
+.titlePadding {
+  padding-top: 200px;
+}
+
+.container-home2 {
+  background-image: url(../../imgs/home/02.jpg);
+}
+
+.container-home3 {
+  background-image: url(../../imgs/home/03.gif);
+}
+
+.container-home4 {
+  background-image: url(../../imgs/home/04.jpg);
+}
+
+.shortTitle {
+  width: 550px;
+  margin-bottom: 13px;
+}
+
+.mediumTitle {
+  width: 650px;
+  margin-bottom: 13px;
+}
+
+@media (max-width: 750px) {
+  .titlePadding {
+    padding-top: 120px;
+  }
+  .shortTitle, .mediumTitle {
+    width: auto;
+  }
+}
+body {
+  background-color: black;
+}
+
+.container-falcon-1 {
+  background-image: url(../../imgs/falcon9/01.jpg);
+}
+.container-falcon-1 .largeTitle {
+  font-size: 90px;
+  font-family: "Rubik";
+  font-weight: 514;
+  margin-top: 190px;
+}
+
+.container-falcon-1-1 {
+  height: 230px;
+  margin-top: 60px;
+}
+.container-falcon-1-1 .numberTitles .h1 {
+  font-size: 90px;
+}
+
+.container-falcon-2 {
+  background-image: url(../../imgs/falcon9/02.jpg);
+  display: grid;
+  align-items: center;
+  justify-content: left;
+}
+.container-falcon-2 .textImage1 {
+  display: flex;
+  font-size: 22px;
+  width: 650px;
+  line-height: 50px;
+}
+
+#carousel1 .carousel01 {
+  background-image: url(../../imgs/falcon9/03.jpg);
+}
+#carousel1 .carousel02 {
+  background-image: url(../../imgs/falcon9/04.jpg);
+}
+#carousel1 .carousel03 {
+  background-image: url(../../imgs/falcon9/05.jpg);
+}
+#carousel1 .carousel04 {
+  background-image: url(../../imgs/falcon9/06.jpg);
+}
+#carousel1 .carousel05 {
+  background-image: url(../../imgs/falcon9/07.jpg);
+}
+
+#overViewPosition {
+  width: 500px;
+  margin-left: 13%;
+  margin-top: 15%;
+}
+
+.container-falcon-3 {
+  background-image: url(../../imgs/falcon9/08.jpg);
+}
+.container-falcon-3 .text-imgMerlin {
+  width: 600px;
+  padding-top: 190px;
+  margin-left: 90px;
+}
+.container-falcon-3 .merlin-description {
+  border-bottom: 2px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+#carousel2 .text-carousel2 {
+  background-color: black;
+}
+
+.container-falcon-4 {
+  height: 85vh;
+  display: grid;
+  align-items: center;
+}
+.container-falcon-4 a {
+  color: #555252;
+  text-decoration: none;
+}
+.container-falcon-4 a:hover {
+  color: #b9b9b9;
+}
+
+@media (max-width: 650px) {
+  .container-falcon-1-1 {
+    height: 100vh;
+  }
+  .container-falcon-1-1 .numberTitles {
+    flex-wrap: wrap;
+  }
+  .container-falcon-2 .textImage1 {
+    width: auto;
+    font-size: 16px;
+    line-height: 30px;
+  }
+  .container-falcon-3 .text-imgMerlin {
+    width: auto;
+    text-align: center;
+  }
+  #overViewPosition {
+    width: auto;
+  }
+  .container-falcon-4 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-falcon-4 .learnMore {
+    padding-top: 80px;
+  }
+}
+@media (max-width: 370px) {
+  .container-falcon-1 .largeTitle {
+    font-size: 50px;
+  }
+}
+body {
+  background-color: black;
+}
+
+.container-human-1 {
+  background-image: url(../../imgs/humanFlight/01.jpg);
+}
+.container-human-1 .humanTitle {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-human-1 .largeTitle {
+  font-size: 120px;
+  font-weight: 550;
+  line-height: 144px;
+}
+.container-human-1 .description {
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 15px;
+}
+.container-human-1 .arrowDown {
+  margin-top: 5px;
+  width: 150px;
+  margin-top: 15px;
+}
+
+.container-human-1-1 {
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.container-human-1-1 .textEarth {
+  width: 800px;
+  font-size: 20px;
+  line-height: 30px;
+}
+.container-human-1-1 .textEarth a {
+  color: #555252;
+  text-decoration: none;
+}
+.container-human-1-1 .textEarth a:hover {
+  color: #b9b9b9;
+}
+
+.astroTitle {
+  display: block;
+}
+.astroTitle .topTitle {
+  font-size: 16px;
+  line-height: 24px;
+}
+.astroTitle .mainTitle {
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+}
+.astroTitle .astroDesc {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.container-human-2 {
+  background-image: url(../../imgs/humanFlight/02.jpg);
+}
+.container-human-2 .astroTitle {
+  margin-left: 55%;
+  padding-top: 12%;
+}
+
+.container-human-3 {
+  background-image: url(../../imgs/humanFlight/03.jpg);
+}
+.container-human-3 .astroTitle {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.container-human-4 {
+  background-image: url(../../imgs/humanFlight/04.jpg);
+}
+.container-human-4 .astroTitle {
+  margin-left: 53%;
+  padding-top: 15%;
+}
+
+.container-human-5 {
+  background-image: url(../../imgs/humanFlight/05.jpg);
+}
+.container-human-5 .astroTitle {
+  margin-left: 5%;
+  padding-top: 15%;
+}
+
+.container-human-6 {
+  height: 85vh;
+  display: grid;
+  align-items: center;
+}
+.container-human-6 a {
+  color: #555252;
+  text-decoration: none;
+}
+.container-human-6 a:hover {
+  color: #b9b9b9;
+}
+
+/*# sourceMappingURL=style.css.map */

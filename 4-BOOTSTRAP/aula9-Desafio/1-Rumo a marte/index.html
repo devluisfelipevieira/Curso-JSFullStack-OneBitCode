@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- style bootstrap -->
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+
+  <link rel="shortcut icon" href="imgs/FAVICON-SPACEX.png" type="image/x-icon">
+
+  <style>
+    body{
+      background-image: url(imgs/backgroundLp.png);
+      background-repeat: no-repeat;
+      background-position: 100%;
+    }
+    *{
+      color: white;
+      font-size: 1.1rem;
+    }
+    img{
+      width: 250px;
+      display: block;
+      margin: auto;
+    }
+    .check{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+    .button{
+      display: block;
+      margin: auto;
+    }
+    footer{
+      text-align: center;
+    }
+    a{
+      text-decoration: none;
+      color: #ff0043;
+    }
+    a:hover{
+      text-decoration: underline;
+      color: #ff0043;
+    }
+    .container{
+      width: 400px;
+    }
+  </style>
+
+  <title>Rumo à Marte-OneBitX</title>
+
+</head>
+<body>
+  <div class="container bg-dark">
+    <img src="imgs/logoOneBitDark.png" alt="logo-obc" class="img-fluid my-3">
+    <p>1-Qual o seu nome?</p>
+    <div class="mb-3">
+      <div class="input-group input-group-lg mb-3">
+        <span class="input-group-text" id="basic-addon1">Primeiro nome</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+      <div class="input-group mb-3 input-group-lg">
+        <span class="input-group-text" id="basic-addon1">Segundo nome</span>
+        <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+      </div>
+    </div>
+
+    <p>2-Qual o seu gênero?</p>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+      <label class="form-check-label" for="flexRadioDefault1">
+        Homem
+      </label>
+    </div>
+    <div class="form-check">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+      <label class="form-check-label" for="flexRadioDefault2">
+        Mulher
+      </label>
+    </div>
+    <div class="form-check mb-2">
+      <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" checked>
+      <label class="form-check-label" for="flexRadioDefault3">
+        Prefiro não informar
+      </label>
+    </div>
+
+    <p>3-Marque os treinamentos que você já fez:</p>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="">
+      <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento básico de astronauta</label>
+    </div>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="">
+      <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento físico básico</label>
+    </div>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="">
+      <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento avançado de astronauta</label>
+    </div>
+    <div class="form-check form-switch">
+      <input class="form-check-input" type="checkbox" role="switch" id="">
+      <label class="form-check-label" for="flexSwitchCheckDefault">Treinamento físico intenso</label>
+    </div>
+    <p>4-Quais você acha que são suas qualidades?</p>
+    <div class="check">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="">
+        <label class="form-check-label" for="flexCheckDefault">Proativo
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="">
+        <label class="form-check-label" for="flexCheckDefault">Resistente
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="">
+        <label class="form-check-label" for="flexCheckDefault">Não vomito fácil
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="">
+        <label class="form-check-label" for="flexCheckDefault">Não temo marciano
+        </label>
+      </div>
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="">
+        <label class="form-check-label" for="flexCheckDefault">Já vi todos os star wars
+        </label>
+      </div>
+    </div>
+
+    <button type="button" class="btn btn-outline-danger button">Enviar</button>
+
+  </div>
+
+  <footer><p>Criado por <strong><a href="https://github.com/luisnascimentovieira" target="_blank">Luis Felipe Vieira</a></p></footer></strong>
+
+  <!-- script bootstrap -->
+  <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>

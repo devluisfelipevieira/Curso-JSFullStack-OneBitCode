@@ -1,0 +1,53 @@
+// variables
+@import "../others/variables.scss";
+
+
+.container-home1{
+  background-image: url(../../imgs/home/01.jpg);
+  .arrowDown{
+    display: inline-block;
+    margin-top: 5px;
+    width:90px;
+    height:auto;
+  }
+}
+
+.titlePadding{
+  padding-top: 200px;
+}
+
+.container-home2{
+  background-image: url(../../imgs/home/02.jpg);
+}
+
+.container-home3{
+  background-image: url(../../imgs/home/03.gif);
+}
+
+.container-home4{
+  background-image: url(../../imgs/home/04.jpg);
+}
+
+@mixin titleStyle($width,$margin-bottom){
+  width:$width;
+  margin-bottom:$margin-bottom;
+}
+
+.shortTitle{
+  @include titleStyle(550px,13px)
+}
+
+.mediumTitle{
+  @include titleStyle(650px,13px)
+}
+
+@media(max-width:750px){
+  .titlePadding{
+    padding-top: 120px;
+  }
+
+  .shortTitle, .mediumTitle{
+    width: auto;
+  }
+
+}

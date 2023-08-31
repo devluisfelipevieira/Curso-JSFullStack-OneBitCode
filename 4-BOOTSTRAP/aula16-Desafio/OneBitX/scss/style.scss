@@ -1,0 +1,13 @@
+// import font
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;514&display=swap");
+
+//commons styles in pages
+@import "others/commons.scss";
+
+// variables
+@import "./others/variables.scss";
+
+// style of pages
+@import "./pages/home.scss";
+@import "./pages/falcon9.scss";
+@import "./pages/humanFling.scss";

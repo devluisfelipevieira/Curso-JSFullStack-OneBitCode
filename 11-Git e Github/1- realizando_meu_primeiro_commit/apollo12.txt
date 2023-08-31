@@ -1,0 +1,5 @@
+Data: 14 de novembro de 1969
+Fato: Segundo voo tripulado a pousar na Lua
+Duração: 10 dias
+Órbitas Lunares: 45
+Foguete: Saturno

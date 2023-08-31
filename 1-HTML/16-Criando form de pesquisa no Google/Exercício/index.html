@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+  <h1>Cadastro da liga dos astronautas</h1>
+  <form action="">
+    <label for="nome">Nome: </label>
+    <input type="text" name="nome" id="nome"><br><br>
+
+    <label for="email">Email: </label>
+    <input type="email" name="email" id="email">
+
+    <label for="psw">- Password: </label>
+    <input type="password" name="psw" id="psw"><br><br>
+
+    <label for="data">Data de nascimento</label>
+    <input type="date" name="data" id="data">
+
+    <label for="foto">- Foto:</label>
+    <input type="file" name="foto" id="foto"><br><br>
+
+    <label for="nasc">Nacionalidade:</label>
+    <select name="nasc" id="nasc">
+      <option value="russian">Russo</option>
+      <option value="american">Amaricano</option>
+      <option value="brasilian">Brasileiro</option>
+    </select>
+
+
+    - Gênero:
+    <label for="female"> F <input type="radio" name="gender" id="female" value="female"></label>
+    <label for="M"> M <input type="radio" name="gender" id="male" value="male"></label><br><br>
+    
+    <label for="qualidades">Suas principais qualidades:</label><br>
+    <label for="inteligencia">Inteligência</label>
+    <input type="checkbox" name="qualidades" id="intelig">
+    <label for="resiliencia">| Resiliência</label>
+    <input type="checkbox" name="qualidades" id="resiliencia">
+    <label for="fisico">| Prepáro Físico</label>
+    <input type="checkbox" name="qualidades" id="fisico">
+    <label for="educacao">| Educação</label>
+    <input type="checkbox" name="qualidades" id="educacao"><br><br>
+
+    <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser um astronauta?"> </textarea> </textarea><br><br>
+
+    <input type="submit" value="Criar">
+  </form>
+</body>
+</html>

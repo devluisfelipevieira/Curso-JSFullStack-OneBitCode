@@ -1,0 +1,6 @@
+{
+  "compilerOptions": {
+    "outFile": "main.js", //modifica o arquivo de saída - dispensa a descrição pós o "tsc"
+    "target": "ESNext" // faz o "tsc" criar uma versão de JS mais recente possível
+  }
+}
