@@ -1,6 +1,6 @@
 # Códigos criados durante o curso JS FullStack da OneBitCode
 ## Curso ensinando do básico ao avançado de HTML, CSS e JavaScript
-## Tecnologias aprendidas aprendidos 
+### Tecnologias aprendidas aprendidos :
 * Typescript
 * Git e GitHub
 * Sass
