@@ -2,6 +2,6 @@
   "compilerOptions": {
     "target": "ESNext",
     "outDir": "public/dist",
-    "watch": true
-  }
+  },
+  "watch": true
 }
