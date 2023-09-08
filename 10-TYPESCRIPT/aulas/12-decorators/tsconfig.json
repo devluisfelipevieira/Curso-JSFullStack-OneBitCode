@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "outDir": "public/dist",
+    "outFile": "public/dist/main.js",
+    "experimentalDecorators": true
+  }
+}

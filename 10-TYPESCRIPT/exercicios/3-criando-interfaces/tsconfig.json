@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
-    "outFile": "dist/main.js",
-    "target": "ESNext"
+    "target": "ESNext",
+    "outDir": "public/dist",
+    "outFile": "public/dist/main.js"
   }
 }
