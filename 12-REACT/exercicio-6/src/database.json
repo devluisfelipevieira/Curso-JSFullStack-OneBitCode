@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "cadeira",
+    "description": "uma cadeira comum",
+    "quantity": 7,
+    "date": "18/09/2023",
+    "category": "movel",
+    "price": 1.99,
+    "updateDate":"18/09/2023"
+    
+  },
+  {
+    "id": 2,
+    "name": "mesa",
+    "description": "uma mesa comum",
+    "quantity": 1,
+    "date": "18/09/2023",
+    "category": "movel",
+    "price": 1.99,
+    "updateDate":"18/09/2023"
+  },
+  {
+    "id": 3,
+    "name": "computador",
+    "description": "Nootbook Lenovo, modelo ideapad 3i, processador i5 de 10° geração, ssd de 250gb, e memória RAM de 8gb",
+    "quantity": 2,
+    "date": "18/09/2023",
+    "category": "eletronico",
+    "price": 1.99,
+    "updateDate":"18/09/2023"
+  },
+  {
+    "id": 4,
+    "name": "lampadas",
+    "description": "lampada led, 32w, economica e com garantia de 1 ano",
+    "quantity": 10,
+    "date": "19/09/2023",
+    "category": "utensílio",
+    "price": 1.99,
+    "updateDate":"19/09/2023"
+  }
+
+]

@@ -1,9 +1,8 @@
-import { Link } from "react-router-dom"
-import Products from "./Products"
+import { Link, useLoaderData } from "react-router-dom"
 
-export default () => {
-  const { productId }
 
+export default () => {  
+  const product = useLoaderData()
 
   return (
     <section>
@@ -11,8 +10,8 @@ export default () => {
         <button>Voltar</button>
       </Link>
       <h2>{product.name}</h2>
-      <p>descrição do produto</p>
-      <p>R$ 00,00</p>
+      <p>{product.description}</p>
+      <p>{product.price}</p>
       <button>Comprar</button>
     </section>
   )
