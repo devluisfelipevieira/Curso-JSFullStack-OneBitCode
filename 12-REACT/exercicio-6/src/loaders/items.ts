@@ -1,6 +1,12 @@
 import items from '../database.json'
 
-export default function loadItem ({ params }: any) {
+interface Item {
+  params: {
+    itemId: number
+  }
+}
+
+export default function loadItem ({ params }: Item) {
   const item = items.find(i => i.id === +params.itemId)
 
 if (!item){

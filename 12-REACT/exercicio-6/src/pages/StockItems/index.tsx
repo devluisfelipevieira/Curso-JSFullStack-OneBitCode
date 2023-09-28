@@ -1,8 +1,15 @@
 import { Link } from 'react-router-dom'
-import ItensBar from '../components/ItemsBar'
-import items from '../database.json'
+import ItensBar from '../../components/ItemsBar'
+import items from '../../database.json'
+
 
 export default () => {
+
+  function deleteItem(dItem: number) {
+    // items =  items.filter(item => item.id !== dItem)
+    dItem
+  }
+
   return(
     <>
       <ItensBar />
@@ -20,8 +27,8 @@ export default () => {
             <span>{item.quantity}</span>
             <span>{item.category}</span>
             <Link to={`${item.id}`}>Ver</Link>
-            <button>Atualizar</button>
-            <button>Excluir</button>
+            <Link to={`/stock/${item.id}/edit`}>Atualizar</Link>
+            <button onClick={() => deleteItem(item.id)}>Excluir</button>
           </div>
         ))}
     </>
