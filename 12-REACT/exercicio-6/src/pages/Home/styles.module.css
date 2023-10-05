@@ -1,6 +1,11 @@
+h1{
+  margin: 0.7rem;
+}
+
 .itemsInfo{
   display: flex;
   justify-content: space-around;
+  height: 23vh;
 }
 
 .infoContainers {
@@ -25,6 +30,7 @@
   margin-top: 1.7rem;
   display: flex;
   justify-content: space-around;
+  height: 40vh;
 }
 
 .titlesDetails{
@@ -39,7 +45,7 @@
 .contentDetails{
   display: flex;
   justify-content: space-between;
-  margin: auto 1rem;
+  margin: 0.8rem 1rem;
 }
 
 .itemName{
@@ -48,6 +54,15 @@
 
 h2 {
   margin: auto 1rem;
+}
+
+.seeBtn{
+  background-color: white;
+  border-radius: 4px;
+  color: black;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  text-align: center;
 }
 
 

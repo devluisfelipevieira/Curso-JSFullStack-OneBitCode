@@ -34,7 +34,8 @@
     "id": 4,
     "name": "lampadas",
     "description": "lampada led, 32w, economica e com garantia de 1 ano",
-    "quantity": 10,
+    "quantity": 10
+    ,
     "date": "19/09/2023",
     "category": "utensílio",
     "price": 1.99,

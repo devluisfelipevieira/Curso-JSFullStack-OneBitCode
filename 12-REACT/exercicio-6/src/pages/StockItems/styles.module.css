@@ -1,0 +1,50 @@
+.allItems{
+  height: 60vh;
+}
+
+.titles{
+  display: flex ;
+  justify-content: space-around;
+  width: 90vw;
+  margin: 0 2rem;
+  margin-bottom: 1rem;
+  background-color: #1C1A1D;
+  padding: 1.1rem;
+  border-radius: 4px;
+}
+
+.title{
+  min-width: 7rem;
+}
+
+.itemsDetails{
+  display: flex;
+  justify-content: space-around;
+  width: 90vw;
+  margin: 0 4rem;
+}
+
+.detail{
+  min-width: 8rem;
+}
+
+.action{
+  display: flex;
+  gap: 0.5rem;
+}
+
+.actionBtn {
+  color: black;
+  text-decoration: none;
+  background-color: white;
+  padding: .4rem;
+  border-radius: 3px;
+}
+
+.seeBtn{
+  background-color: #5BA7FD;
+}
+
+.deleteBtn{
+  background-color: #FF5258;
+}

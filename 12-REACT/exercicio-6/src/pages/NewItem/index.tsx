@@ -2,10 +2,9 @@ import { useState } from "react"
 import ItemsBar from "../../components/ItemsBar"
 import items from '../../database.json'
 import dayjs from "dayjs"
+import styles from "./styles.module.css"
 
 export default () => { 
-  // quando do o push no array "items" ele não atualiza o database.json
-  // achar uma forma de atualizar o database.json com base no array items
 
   const [name, setName] = useState("")
   const [quantity, setQuantity] = useState(0)
@@ -39,20 +38,31 @@ export default () => {
 
   return(
     <>
-      <ItemsBar />
-      <form onSubmit={hundleSubmit}>
-      <label htmlFor="name">Nome:</label>
-      <input type="text" id="name" value={name} onChange={(ev) => setName(ev.target.value)}/>
-      <label htmlFor="quantity">Quantidade:</label>
-      <input type="number" id="quantity" value={quantity} onChange={(ev) => setQuantity(Number(ev.target.value))}/>
-      <label htmlFor="price">Preço:</label>
-      <input type="number" id="price" value={price} onChange={((ev) => setPrice(Number(ev.target.value)))}/>
-      <label htmlFor="category">Categoria:</label>
-      <input type="text" id="category" value={category} onChange={(ev) => setCategory(ev.target.value)}/>
-      <br />
-      <label htmlFor="description">Descrição:</label>
-      <textarea id="description" cols="120" rows="10" value={description} onChange={(ev) => setDescription(ev.target.value)}></textarea>
-      <button>Salvar</button>
+     <ItemsBar />
+      <form onSubmit={hundleSubmit} className={styles.container}>
+      <div className={styles.topInfo}>
+        <div>
+          <label htmlFor="name">Nome:</label>
+          <input type="text" id="name" value={name} onChange={(ev) => setName(ev.target.value)}/>
+        </div>
+        <div>
+          <label htmlFor="quantity">Quantidade:</label>
+          <input type="number" id="quantity" value={quantity} onChange={(ev) => setQuantity(Number(ev.target.value))}/>
+        </div>
+        <div>
+          <label htmlFor="price">Preço:</label>
+          <input type="number" id="price" value={price} onChange={((ev) => setPrice(Number(ev.target.value)))}/>
+        </div>
+        <div>
+          <label htmlFor="category">Categoria:</label>
+          <input type="text" id="category" value={category} onChange={(ev) => setCategory(ev.target.value)}/>
+        </div>
+      </div>
+      <div className={styles.description}>
+        <label htmlFor="description">Descrição:</label>
+        <textarea id="description" cols="120" rows="10" value={description} onChange={(ev) => setDescription(ev.target.value)}></textarea>
+      </div>
+      <button className={styles.saveBtn}>Salvar</button>
     </form>
     </>
   )

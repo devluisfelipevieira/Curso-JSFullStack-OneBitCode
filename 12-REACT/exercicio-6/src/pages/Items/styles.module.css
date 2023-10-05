@@ -1,3 +1,44 @@
-.container {
+section{
+  height: 75vh;
+}
+
+.itemsAction{
   display: flex;
+  gap: 1rem;
+  max-width: 5rem;
+}
+
+.updateBtn{
+  background-color: white;
+  margin: auto;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  color: black;
+  border-radius: 3px;
+}
+
+.itemsAction button {
+  background-color: #FF5258;
+}
+
+.attributes{
+  display: flex;
+  gap: 1rem;
+}
+
+.attributes > p {
+  display: flex;
+  background-color: #1C1A1D;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+p{
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.dates {
+  display: flex;
+  margin-top: 1rem;
 }

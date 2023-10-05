@@ -3,7 +3,25 @@
   justify-content: space-between;
 }
 
+.title{
+  margin: 1rem;
+  text-decoration: none;
+  color: white;
+}
+
 .navbar {
+  margin: 1rem;
   display: flex;
   gap: 1.5rem;
+}
+
+.nav{
+  color: white;
+  text-decoration: none;
+  
+}
+
+.nav:hover{
+  text-decoration: underline;
+  /* transform: all 2s ease 0; */
 }

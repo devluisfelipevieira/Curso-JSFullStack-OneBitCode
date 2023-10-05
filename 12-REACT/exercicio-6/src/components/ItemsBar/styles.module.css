@@ -3,11 +3,17 @@
   gap: 1.5rem;
   border-bottom: 1px solid white;
   width: 90vw;
-  margin: auto;
+  margin: 1rem auto;
   padding-bottom: 1rem;
 }
 
-.buttonBar > button {
-  border: transparent;
-  cursor: pointer;
+.tab {
+  color: white;
+  text-decoration: none;
+}
+
+.active {
+  color: white;
+  text-decoration: none;
+  border-bottom: .125rem solid white;
 }

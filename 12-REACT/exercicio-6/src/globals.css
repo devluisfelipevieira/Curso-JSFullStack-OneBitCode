@@ -8,3 +8,9 @@ body{
   background-color: #2C2C2D;
   color: white;
 }
+
+button {
+  border: transparent;
+  border-radius: 3px;
+  padding: 0.5rem;
+}

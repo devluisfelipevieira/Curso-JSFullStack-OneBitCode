@@ -38,7 +38,7 @@ export default () => {
             {lastItems.map((item) => (
               <div className={styles.contentDetails}>
                 <span>{item.name}</span>
-                <Link to={`stock/${item.id}`}>Ver</Link>
+                <Link to={`stock/${item.id}`} className={styles.seeBtn}>Ver</Link>
               </div>
             ))
             }
@@ -53,7 +53,7 @@ export default () => {
               <div className={styles.contentDetails}>
                 <span className={styles.itemName}>{item.name}</span>
                 <span>{item.quantity}</span>
-                <Link to={`stock/${item.id}`}>Ver</Link>
+                <Link to={`stock/${item.id}`} className={styles.seeBtn}>Ver</Link>
               </div>
             ))
             }

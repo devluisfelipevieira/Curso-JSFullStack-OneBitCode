@@ -1,3 +1,41 @@
 .container {
-  
+  margin: 3rem 5rem;
+  height: 55vh;
+}
+
+.topInfo{
+  display: flex;
+  margin-bottom: 1rem;
+  justify-content: space-between;
+}
+
+.topInfo > div {
+  display: grid;
+}
+
+.topInfo > div > input{
+  padding: 0.5rem;
+
+}
+
+input, textarea{
+  background-color: #1C1A1D;
+  border: transparent;
+  border-radius: 3px;
+  font-size: 1rem;
+  color: white;
+}
+
+.description{
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.saveBtn{
+  margin-top: 1rem;
+  padding: 0.6rem 1rem;
+  border-radius: 3px;
+  background-color: #5BA7FD;
+  border: transparent;
 }

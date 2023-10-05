@@ -5,10 +5,10 @@ export default () => {
   return(
     <>
       <div className={styles.wrapper}>
-        <span>REACT STORE</span>
+        <Link to={"/"} className={styles.title}>REACT STORE</Link>
         <div className={styles.navbar}>
-          <Link to={'/'}>Início</Link>
-          <Link to={'/stock'}>Itens</Link>
+          <Link className={styles.nav} to={'/'}>Início</Link>
+          <Link className={styles.nav} to={'/stock'}>Itens</Link>
         </div>
       </div>
     </>
