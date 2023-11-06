@@ -1,0 +1,19 @@
+touch - para criar arquivo
+
+add .  - para adicionar todos os arquivos
+
+add nome-do-arquivo - para adicionar só um
+
+git commit -m 'descrição do commit' - enviar mundanças para o arquivo raiz
+
+git checkout -b nome-da-branch - cria uma branch e já muda para ela
+
+git checkout nome-da-breach - muda para branch
+
+git merge nome-da-branch - manda as mudanças feitas na branch para a master(importante estar na master)
+
+git push origin master(ou o nome da branch) - manda a atualização do projeto pro github
+
+git pull origin master(ou nome da branch) - recebe a atualização do projeto no github pra maquina
+
+git remote add origin - adiciona uma origem remota para o repositório
